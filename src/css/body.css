@@ -1,0 +1,9 @@
+body{    
+    background-color: #1e1e23;
+}
+
+.capaInicial{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}

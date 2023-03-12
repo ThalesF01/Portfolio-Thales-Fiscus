@@ -1,0 +1,35 @@
+.header{
+    height: 15vh;
+    background-color: #16161d;  
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;    
+}
+
+.header a{
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #fafafa;    
+    padding: 0.8rem;
+}
+
+.header a:hover{
+    opacity: 0.7;
+    transform: scale(1.1);
+    background-color: #393941;
+    border-radius: 15px;    
+}
+
+.header a::after {
+    transition: width 2s;
+    }
+
+.lista{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;    
+    
+}
