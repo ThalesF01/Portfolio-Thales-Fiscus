@@ -4,6 +4,7 @@ import Sobre from './body/sobre'
 import Projetos from './body/projetos'
 import Experiencias from './body/experiencias'
 import Habilidades from './body/habilidades'
+import Contato from './body/contato'
 import '../css/body.css'
 
 export default function body(){
@@ -16,6 +17,7 @@ export default function body(){
             <Projetos />
             <Experiencias />
             <Habilidades />
+            <Contato />
         </>                          
     )
 }

@@ -3,7 +3,7 @@ import '../../css/body/sobre.css'
 
 export default function sobre(){
     return(   
-        <div className="Sobre">
+        <div id="sobre">
             <h2>Sobre Mim</h2>
             <p>Formado em Análise e Desenvolvimento de Sistemas pela Unicarioca. Sou um desenvolvedor de sistemas 
                 apaixonado por tecnologia e sempre em busca de novos desafios e aprendizados. Tenho sólida experiência 

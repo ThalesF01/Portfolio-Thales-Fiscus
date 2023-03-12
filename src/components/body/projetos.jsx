@@ -3,7 +3,7 @@ import Container from './containerProjetos'
 
 export default function projetos(){
     return(   
-        <div className="projetos">
+        <div id="projetos">
             <div className="titulo">
                 <h1>Projetos</h1>
             </div>

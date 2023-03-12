@@ -2,7 +2,7 @@ import React from "react";
 
 export default function experiencias(){
     return(   
-        <div className="experiencias">
+        <div id="experiencias">
             <h1>Experiências</h1>
             <h2>Analista de Dados</h2>
             <h3>YDUQS - Fevereiro 2022 até Dezembro 2022</h3>

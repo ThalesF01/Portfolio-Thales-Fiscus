@@ -7,7 +7,7 @@ import '../../css/body/perfil.css'
 
 export default function perfil(){
     return(   
-        <div className="perfil">
+        <div id="perfil">
 
             <div className="perfilPhoto">
                 <img src={PerfilPhoto} alt="perfilPhoto" />
