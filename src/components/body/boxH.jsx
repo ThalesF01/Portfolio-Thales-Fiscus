@@ -1,4 +1,5 @@
 import React from "react";
+import '../../css/body/boxH.css'
 
 export default function boxH(props){
     return( 
