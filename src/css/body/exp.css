@@ -1,12 +1,50 @@
-#experiencias{
+#exp{
     display: flex;
-    flex-direction: column;    
-    justify-content: center;
-    height: 50vh;
-    background-color: red;
-    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;    
+    height: 75vh;
+    margin-bottom: 2rem;
+    padding: 1.5rem;    
+    
 }
 
-#experiencias ul{
-    margin: 1rem;
+#exp h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+#exp h2{
+    font-size: 2rem;
+}
+
+#exp ul{
+    margin-left: 2.5rem;
+}
+
+#exp ul li{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+#exp .YDUQS{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;  
+    align-items: center; 
+    margin-top: 10px; 
+}
+
+#exp .YDUQS img{
+    height: 260px;
+    width: 260px;
+    border-radius: 20px;
+}
+
+#exp .YDUQS img:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.3s;
 }

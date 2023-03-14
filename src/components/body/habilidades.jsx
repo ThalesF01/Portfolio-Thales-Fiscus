@@ -21,7 +21,7 @@ import '../../css/body/habilidades.css'
 export default function habilidades(){
     return(   
         <div id="habilidades">
-            <h1>Habilidades</h1>
+            <h1>Tecnologias</h1>
             <div className="containerH">
                 <Box img={HTML} tech='HTML'/>
                 <Box img={CSS} tech='CSS'/>

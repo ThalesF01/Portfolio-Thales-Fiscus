@@ -7,8 +7,8 @@ export default function header(){
             <ul className="lista">
                 <li><a href="#">Home</a></li>           
                 <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#experiencias">Experiências</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#exp">Experiências</a></li>
+                <li><a href="#habilidades">Tecnologias</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>            
         </div>                    

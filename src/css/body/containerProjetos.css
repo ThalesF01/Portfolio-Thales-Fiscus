@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container img{
+    height: 200px;
+    width: 200px;           
+    object-fit: cover;
+    border-radius: 10px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-bottom: 14px;
+}
+    
+.container img:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}

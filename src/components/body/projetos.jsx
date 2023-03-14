@@ -1,14 +1,32 @@
 import React from "react";
 import Container from './containerProjetos'
+import Conversor from '../../assets/Projetos/Conversor.png'
+import Blog from '../../assets/Projetos/Blog.png'
+import Pousada from '../../assets/Projetos/Pousada.png'
+import Music from '../../assets/Projetos/Music.png'
+import '../../css/body/projetos.css'
+
+function enviaProjetos(img,texto,techs,vp,vc){
+    return <Container img={img} texto ={texto} techs={techs} vp={vp} vc={vc}/>
+}
 
 export default function projetos(){
+
+    
+
     return(   
         <div id="projetos">
             <div className="titulo">
                 <h1>Projetos</h1>
             </div>
 
-            <Container />
+            <div id="demo">
+                {enviaProjetos(Conversor,"Projeto com o intuito de praticar habilidades em React. Conversor de moedas (real,dolar americano,euro,libra e bitcoin) com tabela de conversões para análise e contexto da moeda selecionada.","Reacj.JS, JavaScript, HTML5, CSS3 e BootStrap", "https://conversor-moedas-react.vercel.app/", "https://github.com/ThalesF01/Conversor-Moedas-React")}
+                {enviaProjetos(Blog, "Projeto proposto pelo canal Victor Lima - Guia do Programador com o intuito de criar uma blog feito com Node e MongoDB, onde é possível se cadastrar e efetuar o login, realizar a criação e edição de categorias e publicacões de postagens.", "Node.JS, JavaScript, HTML5, CSS3, BootStrap e MongoDB","#","https://github.com/ThalesF01/Blog-Node" )}
+                {enviaProjetos(Pousada,"Pagina de reserva de hotel inspirado em exercicio da plataforma DevMedia.","HTML5, CSS3 e JavaScript","https://pousada-teste.vercel.app/","https://github.com/ThalesF01/Pousada-Secreta")}
+                {enviaProjetos(Music,"Este é um projeto proposto pelo site DevChallengeBR, criado por Emmanuel Messias. Este desafio consiste na construção de uma pagina de musicas no estilo spotify","HTML5, CSS3 e JavaScript","https://music-library-gray.vercel.app/","https://github.com/ThalesF01/Music-Library")}
+            </div>
+                        
 
         </div>                            
     )
