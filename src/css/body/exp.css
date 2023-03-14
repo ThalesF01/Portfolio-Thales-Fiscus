@@ -1,0 +1,12 @@
+#experiencias{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    height: 50vh;
+    background-color: red;
+    padding: 1rem;
+}
+
+#experiencias ul{
+    margin: 1rem;
+}

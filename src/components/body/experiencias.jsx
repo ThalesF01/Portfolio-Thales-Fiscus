@@ -1,4 +1,5 @@
 import React from "react";
+import '../../css/body/exp.css'
 
 export default function experiencias(){
     return(   

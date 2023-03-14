@@ -9,7 +9,6 @@ import Typescript from '../../assets/Skills/Typescript.svg'
 import Nextjs from '../../assets/Skills/nextjs.svg'
 import Java from '../../assets/Skills/Java.svg'
 import Csharp from '../../assets/Skills/csharp.svg'
-import C from '../../assets/Skills/C.svg'
 import Sass from '../../assets/Skills/sass.svg'
 import Bootstrap from '../../assets/Skills/BootStrap.svg'
 import MySql from '../../assets/Skills/MySql.svg'
@@ -17,6 +16,7 @@ import GraphQL from '../../assets/Skills/graphql.svg'
 import Git from '../../assets/Skills/git.svg'
 import Oracle from '../../assets/Skills/oracle.svg'
 import PostgreSql from '../../assets/Skills/postgresql.svg'
+import '../../css/body/habilidades.css'
 
 export default function habilidades(){
     return(   
@@ -31,10 +31,9 @@ export default function habilidades(){
                 <Box img={Typescript} tech='Typescript'/>
                 <Box img={Nextjs} tech='NextJS'/> 
                 <Box img={Java} tech='Java'/> 
-                <Box img={Csharp} tech='C-Sharp'/> 
-                <Box img={C} tech='C'/> 
+                <Box img={Csharp} tech='C-Sharp'/>                 
                 <Box img={Bootstrap} tech='BootStrap'/>             
-                <Box img={Sass} tech='Sass'/> 
+                <Box img={Sass} tech='Sass'/>                 
                 <Box img={GraphQL} tech='GraphQL'/>              
                 <Box img={MySql} tech='MySql'/>
                 <Box img={PostgreSql} tech='Postgresql'/>                

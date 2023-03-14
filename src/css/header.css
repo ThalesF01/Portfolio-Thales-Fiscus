@@ -3,28 +3,24 @@
     background-color: #16161d;  
     display: flex;
     align-items: center;
-    font-size: 1.3rem;    
-    position: fixed;
-    width: 100%;
+    font-size: 1.3rem;        
+    width: 100%;    
 }
 
 .header a{
     letter-spacing: 2px;
     text-decoration: none;
     color: #fafafa;    
-    padding: 0.8rem;
+    padding: 1rem;
 }
 
 .header a:hover{
     opacity: 0.7;
     transform: scale(1.1);
     background-color: #393941;
-    border-radius: 15px;    
+    border-radius: 15px;   
+    transition: all 0.5s; 
 }
-
-.header a::after {
-    transition: width 2s;
-    }
 
 .lista{
     

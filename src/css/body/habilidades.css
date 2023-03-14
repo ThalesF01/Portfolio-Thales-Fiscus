@@ -1,0 +1,22 @@
+#habilidades{
+    
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+#habilidades .containerH{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 3rem;    
+    justify-content: center;
+    margin: 25px;
+}
+
+#habilidades h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
