@@ -4,13 +4,13 @@ import '../../css/body/containerProjetos.css'
 export default function containerProjetos(props){
     return(   
         <div className="container">
-            <a href={props.vp} target="_blank"><img src={props.img} alt="Pousada" /></a>
+            <a className="fotoProjeto" href={props.vp} target="_blank"><img src={props.img} alt="ImagemProjeto" /></a>
             <div className="texto">
-                <p>{props.texto}</p>
-                <p>tecnologias usadas: {props.techs}</p>
-                <div className="links">
-                    <p>Ver projeto: <a href={props.vp} target="_blank">LINK</a></p>
-                    <p>Ver Codigo: <a href={props.vc} target="_blank">LINK</a></p>    
+                <p className="inf">{props.texto}</p>
+                <p className="techs">Tecnologias usadas: {props.techs}</p>
+                <div className="link">
+                    <a href={props.vp} target="_blank">Ver projeto</a>
+                    <a href={props.vc} target="_blank">Ver Código</a>                    
                 </div>                        
             </div>            
         </div> 

@@ -9,3 +9,30 @@
 #contato a{
     text-decoration: none;
 }
+
+.links{
+    padding: 10px;
+}
+
+.links a{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links p{
+    padding: 10px;
+}
+
+.links img{
+    height: 50px;
+    width: 50px;
+}
+
+.links a:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}

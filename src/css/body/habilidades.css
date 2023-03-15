@@ -1,10 +1,10 @@
 #habilidades{
     
-    height: 80vh;
+    height: 95vh;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
     justify-content: center;
+    align-items: center;
 }
 
 #habilidades .containerH{

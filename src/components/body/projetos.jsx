@@ -21,10 +21,10 @@ export default function projetos(){
             </div>
 
             <div id="demo">
-                {enviaProjetos(Conversor,"Projeto com o intuito de praticar habilidades em React. Conversor de moedas (real,dolar americano,euro,libra e bitcoin) com tabela de conversões para análise e contexto da moeda selecionada.","Reacj.JS, JavaScript, HTML5, CSS3 e BootStrap", "https://conversor-moedas-react.vercel.app/", "https://github.com/ThalesF01/Conversor-Moedas-React")}
-                {enviaProjetos(Blog, "Projeto proposto pelo canal Victor Lima - Guia do Programador com o intuito de criar uma blog feito com Node e MongoDB, onde é possível se cadastrar e efetuar o login, realizar a criação e edição de categorias e publicacões de postagens.", "Node.JS, JavaScript, HTML5, CSS3, BootStrap e MongoDB","#","https://github.com/ThalesF01/Blog-Node" )}
+                {enviaProjetos(Conversor,"Conversor de Moedas feito em React.JS","Reacj.JS, JavaScript, HTML5, CSS3 e BootStrap", "https://conversor-moedas-react.vercel.app/", "https://github.com/ThalesF01/Conversor-Moedas-React")}
+                {enviaProjetos(Blog, "Blog feito com Node e MongoDB.", "Node.JS, JavaScript, HTML5, CSS3, BootStrap e MongoDB","#","https://github.com/ThalesF01/Blog-Node" )}
                 {enviaProjetos(Pousada,"Pagina de reserva de hotel inspirado em exercicio da plataforma DevMedia.","HTML5, CSS3 e JavaScript","https://pousada-teste.vercel.app/","https://github.com/ThalesF01/Pousada-Secreta")}
-                {enviaProjetos(Music,"Este é um projeto proposto pelo site DevChallengeBR, criado por Emmanuel Messias. Este desafio consiste na construção de uma pagina de musicas no estilo spotify","HTML5, CSS3 e JavaScript","https://music-library-gray.vercel.app/","https://github.com/ThalesF01/Music-Library")}
+                {enviaProjetos(Music,"Pagina de musicas no estilo spotify","HTML5, CSS3 e JavaScript","https://music-library-gray.vercel.app/","https://github.com/ThalesF01/Music-Library")}
             </div>
                         
 
