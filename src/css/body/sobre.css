@@ -4,4 +4,16 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 30px;
+}
+
+#sobre h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#sobre p{
+    letter-spacing: 0.9px;
+    line-height: 1.5;
+    font-size: 1.1rem;
 }

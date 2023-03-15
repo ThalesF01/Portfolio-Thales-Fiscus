@@ -2,6 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #2a2a31;
+    padding: 24px;
+    margin: 10px;
+    border-radius: 15px;
 }
 
 .container img{
@@ -19,4 +23,12 @@
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+}
+
+.container .texto{
+    padding: 17px;
+}
+
+.container .texto .links{
+    display: flex;
 }
