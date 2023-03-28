@@ -1,12 +1,8 @@
 #exp{
     display: flex;
     flex-direction: column;
-    justify-content: center;    
-    height: 85vh;
-    
-    padding: 1.5rem;   
-    
-    
+    justify-content: center;        
+    padding: 1.5rem;       
 }
 
 #exp h1{
@@ -41,6 +37,8 @@
     height: 260px;
     width: 260px;
     border-radius: 20px;
+    transition-duration: 0.5s; 
+    transition-timing-function: ease-in-out;
 }
 
 #exp .YDUQS img:hover{
@@ -48,4 +46,12 @@
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     transition: all 0.3s;
+}
+
+@media(max-width:1000px){
+    #exp{
+        display: flex;
+        flex-direction: column;      
+    }
+    
 }

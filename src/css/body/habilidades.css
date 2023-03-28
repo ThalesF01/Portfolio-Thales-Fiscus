@@ -1,5 +1,4 @@
-#habilidades{
-    
+#habilidades{    
     height: 95vh;
     display: flex;
     flex-direction: column;    
@@ -19,4 +18,13 @@
     display: flex;
     justify-content: center;
     font-size: 3rem;
+}
+
+@media(max-width:1000px){
+    #habilidades .containerH{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 0.5rem;
+    }
+    
 }

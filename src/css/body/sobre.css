@@ -17,3 +17,14 @@
     line-height: 1.5;
     font-size: 1.1rem;
 }
+
+@media(max-width:1000px){
+    #sobre{
+        background-color: red;
+        width: 80%;
+    }  
+    #sobre p{
+        background-color: blue;
+    }   
+ 
+}

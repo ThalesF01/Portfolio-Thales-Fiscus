@@ -8,7 +8,7 @@ import '../css/body.css'
 
 export default function body(){
     return(   
-        <>
+        <div className="body">
             <div className="capaInicial">
                 <Perfil />
                 <Sobre />
@@ -16,6 +16,6 @@ export default function body(){
             <Projetos />
             <Experiencias />
             <Habilidades />            
-        </>                          
+        </div>       
     )
 }

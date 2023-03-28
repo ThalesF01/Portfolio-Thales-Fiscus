@@ -11,9 +11,6 @@ function enviaProjetos(img,texto,techs,vp,vc){
 }
 
 export default function projetos(){
-
-    
-
     return(   
         <div id="projetos">
             <div className="titulo">
@@ -25,9 +22,9 @@ export default function projetos(){
                 {enviaProjetos(Blog, "Blog feito com Node e MongoDB.", "Node.JS, JavaScript, HTML5, CSS3, BootStrap e MongoDB","#","https://github.com/ThalesF01/Blog-Node" )}
                 {enviaProjetos(Pousada,"Pagina de reserva de hotel inspirado em exercicio da plataforma DevMedia.","HTML5, CSS3 e JavaScript","https://pousada-teste.vercel.app/","https://github.com/ThalesF01/Pousada-Secreta")}
                 {enviaProjetos(Music,"Pagina de musicas no estilo spotify","HTML5, CSS3 e JavaScript","https://music-library-gray.vercel.app/","https://github.com/ThalesF01/Music-Library")}
+                {enviaProjetos(Conversor,"Pagina de compras de HQs da Marvel","React.js e Styled Components","https://desafio-neo-app.vercel.app/","https://github.com/ThalesF01/Desafio-NeoApp")}
             </div>
                         
-
         </div>                            
     )
 }
