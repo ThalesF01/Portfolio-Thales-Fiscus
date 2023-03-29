@@ -1,16 +1,19 @@
 import React from "react";
 import '../css/header.css'
+import { Container, Lista, Link } from "../styles/headerStyles";
 
 export default function header(){
-    return(        
-        <div className="header">
-            <ul className="lista">
-                <li><a href="#">Home</a></li>           
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#exp">Experiências</a></li>
-                <li><a href="#habilidades">Tecnologias</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>            
-        </div>                    
+    return(
+        <header>
+            <Container>                
+                <Lista>
+                    <Link><a href="#">Home</a></Link>
+                    <Link><a href="#projetos">Projetos</a></Link>
+                    <Link><a href="#exp">Experiências</a></Link>
+                    <Link><a href="#habilidades">Tecnologias</a></Link>
+                    <Link><a href="#contato">Contato</a></Link>
+                </Lista>      
+            </Container>      
+        </header>                   
     )
 }

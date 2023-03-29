@@ -4,7 +4,7 @@ import Conversor from '../../assets/Projetos/Conversor.png'
 import Blog from '../../assets/Projetos/Blog.png'
 import Pousada from '../../assets/Projetos/Pousada.png'
 import Music from '../../assets/Projetos/Music.png'
-import '../../css/body/projetos.css'
+
 
 function enviaProjetos(img,texto,techs,vp,vc){
     return <Container img={img} texto ={texto} techs={techs} vp={vp} vc={vc}/>

@@ -1,34 +1,18 @@
-.header{
-    height: 15vh;
-    background-color: #16161d;  
-    display: flex;
-    align-items: center;
-    font-size: 1.3rem;        
-    width: 100%;    
-    position: fixed;
-    top: 0;        
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
 }
 
-.header a{
-    letter-spacing: 2px;
-    text-decoration: none;
-    color: #fafafa;    
-    padding: 1rem;
-    transition-duration: 0.5s; 
-    transition-timing-function: ease-in-out;
+.mobile-menu{
+    cursor: pointer;
+    display: none;
 }
 
-.header a:hover{
-    opacity: 0.7;
-    transform: scale(1.1);
-    background-color: #393941;
-    border-radius: 20px;       
-}
-
-.lista{    
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style: none;        
+@media (max-width:999px){
+    .mobile-menu{
+        display: block;
+        width: 80%;
+    }
 }

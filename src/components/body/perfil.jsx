@@ -1,17 +1,13 @@
 import React from "react";
 import PerfilPhoto from '../../assets/perfilPhoto.jpg'
-import '../../css/body/perfil.css'
+import {Container, PerfilImage } from '../../styles/body/perfilStyles'
 
 export default function perfil(){
     return(   
-        <div id="perfil">
-
-            <div className="perfilPhoto">
-                <img src={PerfilPhoto} alt="perfilPhoto" />
-            </div>
-
+        <Container id="perfil">            
+            <PerfilImage src={PerfilPhoto} alt="perfilPhoto" />            
             <h1>Thales Fiscus</h1>
             <p>Software Developer - FullStack Developer</p>                                    
-        </div>                              
+        </Container>                              
     )
 }

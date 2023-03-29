@@ -5,17 +5,16 @@ import Projetos from './body/projetos'
 import Experiencias from './body/experiencias'
 import Habilidades from './body/habilidades'
 import '../css/body.css'
+import { Container } from "../styles/bodyStyles";
 
 export default function body(){
-    return(   
-        <div className="body">
-            <div className="capaInicial">
+    return(
+        <>
+            <Container>
                 <Perfil />
                 <Sobre />
-            </div>            
+            </Container>
             <Projetos />
-            <Experiencias />
-            <Habilidades />            
-        </div>       
+        </>
     )
 }

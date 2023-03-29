@@ -1,9 +1,9 @@
 import React from "react";
-import '../../css/body/sobre.css'
+import { Container } from "../../styles/body/sobreStyles";
 
 export default function sobre(){
     return(   
-        <div id="sobre">
+        <Container id="sobre">
             <h1>Sobre Mim</h1>
             <p>Formado em Análise e Desenvolvimento de Sistemas pela Unicarioca. Sou um desenvolvedor de sistemas 
                 apaixonado por tecnologia e sempre em busca de novos desafios e aprendizados. Tenho sólida experiência 
@@ -13,6 +13,6 @@ export default function sobre(){
                 constantemente buscando novas tecnologias e soluções para aprimorar meus conhecimentos e a qualidade 
                 do meu trabalho. Meu objetivo é fornecer soluções de software de qualidade, eficientes e eficazes que 
                 atendam às necessidades do cliente e ajudem a impulsionar o sucesso do negócio.</p>
-        </div>            
+        </Container>            
     )
 }
