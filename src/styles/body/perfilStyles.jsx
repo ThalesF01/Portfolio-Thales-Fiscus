@@ -8,7 +8,7 @@ export const Container = styled.div`
     justify-content: center;   
     @media (max-width:900px){
         width: 80%;
-        height: 50vh;
+        height: 75vh;
         justify-content: center;
     }          
 `
