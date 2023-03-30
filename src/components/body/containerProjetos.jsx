@@ -1,18 +1,25 @@
 import React from "react";
-import '../../css/body/containerProjetos.css'
+import { Container, Image, Link, Article, Inf, Techs, BotoesC, Botoes } from "../../styles/body/cardsStyles";
 
 export default function containerProjetos(props){
     return(   
-        <div className="container">
-            <a className="fotoProjeto" href={props.vp} target="_blank"><img src={props.img} alt="ImagemProjeto" /></a>
-            <div className="texto">
-                <p className="inf">{props.texto}</p>
-                <p className="techs">Tecnologias usadas: {props.techs}</p>
-                <div className="link">
-                    <a href={props.vp} target="_blank">Ver projeto</a>
-                    <a href={props.vc} target="_blank">Ver Código</a>                    
-                </div>                        
-            </div>            
-        </div> 
+        <Container>
+            <Link href={props.vp} target="_blank"><Image src={props.img} alt="ImagemProjeto" /></Link>
+            <Article>
+                <Inf>{props.texto}</Inf>
+                <Techs>Tecnologias usadas: {props.techs}</Techs>
+                <BotoesC>
+
+                    <Botoes href={props.vp} target="_blank" borderColor="#28a745">
+                        <p>Ver projeto</p>
+                    </Botoes>
+
+                    <Botoes href={props.vc} target="_blank" borderColor="#007bff">
+                        <p>Ver Código</p>
+                    </Botoes>
+
+                </BotoesC>                        
+            </Article>            
+        </Container> 
     )
 }

@@ -5,12 +5,12 @@ export const Container = styled.div`
     flex-direction: column;    
     width: 50%;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;
     @media (max-width:900px){
         width: 80%;
         height: 100vh;
         justify-content: center;
-    }          
+    }
 `
 
 export const PerfilImage = styled.img`        

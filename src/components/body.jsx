@@ -14,6 +14,7 @@ export default function body(){
                 <Perfil />
                 <Sobre />
             </Container>            
+            <Projetos />
         </>
     )
 }
