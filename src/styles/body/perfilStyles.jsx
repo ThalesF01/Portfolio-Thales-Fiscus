@@ -19,8 +19,8 @@ export const PerfilImage = styled.img`
         border-radius: 50%;
         object-fit: cover;    
         @media (max-width:900px){
-            height: 400px;
-            width: 400px; 
+            height: 300px;
+            width: 300px; 
     }    
 `
 

@@ -15,7 +15,7 @@ export const Container = styled.div`
         letter-spacing: 0.9px;
         line-height: 1.5;
         font-size: 1.1rem;
-        width: 90%;
+        width: 93%;
         @media (max-width:900px){
             
             width: 100%;
