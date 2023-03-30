@@ -13,8 +13,7 @@ export default function body(){
             <Container>
                 <Perfil />
                 <Sobre />
-            </Container>
-            <Projetos />
+            </Container>            
         </>
     )
 }

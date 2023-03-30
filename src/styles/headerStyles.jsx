@@ -1,44 +1,44 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
-    width: 100%;
+export const Navbar = styled.nav`
+  width: 100%;
     background-color: #16161d;
     height: 15vh;
     display: flex;
-    align-items: center;
-    position: fixed;
-    top: 0;
+    align-items: center;    
     justify-content: center;
-`
+  @media (max-width: 900px) {
+    flex-direction: column;
+    height: auto;
+  }
+`;
 
-export const Lista = styled.ul`
-    width:80%;
-    display: flex;    
-    justify-content: space-evenly;
-    align-items: center;
-    list-style: none;
-    @media (max-width:999px){
-        position: absolute;
-        top: 8vh;
-        right: 0;
-        width: 45vh;
-        height: 85vh;
-        flex-direction: column;
-        align-items: center;
-        background-color: #16161d;
-        transform: translateX(100%);
-    }
-`
+export const NavMenu = styled.ul`
+  display: flex;
+  list-style: none;
+  padding: 0.5rem;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 15px;  
+  @media (max-width: 900px) {
+    flex-direction: column;
+    width: 100%;
+    display: ${props => (props.isOpen ? 'flex' : 'none')};
+    justify-content: space-around;
+  }
+`;
 
-export const Link = styled.li`
-    & a{
+export const NavMenuItem = styled.li`
+    margin: 30px;
+  & a{
         letter-spacing: 2px;
         text-decoration: none;
         color: #fafafa;  
-        padding: 1rem;
+        padding: 1.6rem;
         transition-duration: 0.5s; 
         transition-timing-function: ease-in-out;
-        font-size: 1.1rem;
+        font-size: 1.1rem;      
     }
     & a:hover{
         letter-spacing: 3px;
@@ -46,7 +46,13 @@ export const Link = styled.li`
         transform: scale(1.3);
         background-color: #393941;
         border-radius: 20px;    
-        padding:1rem ;
+        padding:1.3rem ;
     }
-    
-`
+`;
+
+export const NavToggle = styled.div`
+  display: none; 
+  @media (max-width: 900px) {
+    display: block;
+  }
+`;
