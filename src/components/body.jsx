@@ -15,6 +15,7 @@ export default function body(){
                 <Sobre />
             </Container>            
             <Projetos />
+            <Experiencias />
         </>
     )
 }

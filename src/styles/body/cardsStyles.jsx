@@ -21,6 +21,8 @@ export const Image = styled.img`
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 14px;
+    transition-duration: 0.5s; 
+    transition-timing-function: ease-in-out; 
     @media (max-width:900px){  
         height: 180px;
         width: 220px;              
@@ -33,7 +35,7 @@ export const Link = styled.a`
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
         transition: all 0.5s;
-    }    
+    }
 `
 
 export const Article = styled.div`
@@ -71,17 +73,22 @@ export const Botoes = styled.a`
     text-decoration: none;   
     transition: all 0.5s;
     padding: 10px;
-    border-color: ${props => props.borderColor};    
+    border-color: ${props => props.borderColor}; 
+    transition-duration: 0.5s; 
+    transition-timing-function: ease-in-out;    
     & p{
         color: ${props => props.borderColor};
         padding: 0.3rem;
+        transition-duration: 0.5s; 
+    transition-timing-function: ease-in-out; 
     }
     & p:hover{               
         transition: all 0.5s;
         color: #fff;
         background-color:${props => props.borderColor};      
         border-radius: 0.5rem;
-        letter-spacing: 2px;
+        letter-spacing: 1.5px;
+        transition-duration: 0.5s; 
+    transition-timing-function: ease-in-out; 
     }       
-
 `

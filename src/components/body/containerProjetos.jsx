@@ -9,15 +9,8 @@ export default function containerProjetos(props){
                 <Inf>{props.texto}</Inf>
                 <Techs>Tecnologias usadas: {props.techs}</Techs>
                 <BotoesC>
-
-                    <Botoes href={props.vp} target="_blank" borderColor="#28a745">
-                        <p>Ver projeto</p>
-                    </Botoes>
-
-                    <Botoes href={props.vc} target="_blank" borderColor="#007bff">
-                        <p>Ver Código</p>
-                    </Botoes>
-
+                    <Botoes href={props.vp} target="_blank" borderColor="#28a745"><p>Ver projeto</p></Botoes>
+                    <Botoes href={props.vc} target="_blank" borderColor="#007bff"><p>Ver Código</p></Botoes>
                 </BotoesC>                        
             </Article>            
         </Container> 
