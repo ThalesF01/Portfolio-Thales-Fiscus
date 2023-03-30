@@ -1,4 +1,5 @@
 import React from "react";
+import { Container, Titulo, ContainerH } from "../../styles/body/techsStyles";
 import Box from './boxH'
 import HTML from '../../assets/Skills/HTML5.svg'
 import CSS from '../../assets/Skills/CSS3.svg'
@@ -16,13 +17,12 @@ import GraphQL from '../../assets/Skills/graphql.svg'
 import Git from '../../assets/Skills/git.svg'
 import Oracle from '../../assets/Skills/oracle.svg'
 import PostgreSql from '../../assets/Skills/postgresql.svg'
-import '../../css/body/habilidades.css'
 
 export default function habilidades(){
     return(   
-        <div id="habilidades">
-            <h1>Tecnologias</h1>
-            <div className="containerH">
+        <Container id="habilidades">
+            <Titulo>Tecnologias</Titulo>
+            <ContainerH>
                 <Box img={HTML} tech='HTML'/>
                 <Box img={CSS} tech='CSS'/>
                 <Box img={JS} tech='JavaScript'/>
@@ -39,7 +39,7 @@ export default function habilidades(){
                 <Box img={PostgreSql} tech='Postgresql'/>                
                 <Box img={Oracle} tech='Oracle'/>                
                 <Box img={Git} tech='Git'/>
-            </div>
-        </div>                                            
+            </ContainerH>
+        </Container>                                            
     )
 }
