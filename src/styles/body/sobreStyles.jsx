@@ -8,6 +8,7 @@ export const Container = styled.div`
     width: 50%;    
     @media (max-width:900px){       
         width: 80%;
+        height: 100%;
     }
     & p{
         letter-spacing: 0.9px;
