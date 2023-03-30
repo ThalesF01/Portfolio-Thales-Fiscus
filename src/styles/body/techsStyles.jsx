@@ -5,16 +5,14 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;    
     justify-content: center;
-    align-items: center;     
-    
+    align-items: center;         
 `
 
 export const Titulo = styled.h1`
     display: flex;
     justify-content: center;
     font-size: 3rem;  
-    margin-bottom: 15px;
-    
+    margin-bottom: 15px;    
 `
 
 export const ContainerH = styled.div`

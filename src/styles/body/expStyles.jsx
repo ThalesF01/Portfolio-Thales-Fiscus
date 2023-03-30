@@ -4,8 +4,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;            
-    padding: 1.5rem;     
-    
+    padding: 1.5rem;         
 `
 
 export const Titulo = styled.h1`    
@@ -30,10 +29,7 @@ export const Image = styled.img`
     width: 260px;
     border-radius: 20px;
     transition-duration: 0.5s; 
-    transition-timing-function: ease-in-out;   
-    @media (max-width:900px){
-        
-    }
+    transition-timing-function: ease-in-out;      
 `
 
 export const Link = styled.a`

@@ -11,15 +11,11 @@ export default function footer(){
                 <Link href="https://www.linkedin.com/in/thalesf01/" target="_blank">
                 <Image src={Linkedin} alt="Linkeidn" />
                 <p>Linkedin</p></Link>
-            
-
-            
+                        
                 <Link href="https://github.com/ThalesF01" target="_blank">
                 <Image src={Github} alt="Github" />
                 <p>Github</p>
-                </Link>
-            
-
+                </Link>    
             
                 <Link href="mailto:thalesgabriel07@gmail.com" target="_blank">
                     <Image src={Email} alt="Email" />

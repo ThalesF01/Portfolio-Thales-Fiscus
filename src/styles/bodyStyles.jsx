@@ -11,3 +11,8 @@ export const Container = styled.div`
      height: 150vh;
     }
 `
+
+export const Body = styled.div`
+    background-color: #1e1e23;
+    width: 100%;
+`

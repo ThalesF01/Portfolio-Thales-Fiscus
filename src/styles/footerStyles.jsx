@@ -5,12 +5,7 @@ export const Container = styled.div`
     align-items: center;
     justify-content: space-evenly;
     height: 15vh;
-    background-color: #16161d;
-    @media (max-width:999px){
-     
-
-
-    }
+    background-color: #16161d;  
 `
 
 export const Image = styled.img`
@@ -24,10 +19,7 @@ export const Image = styled.img`
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
         transition: all 0.5s;
-    }  
-    @media (max-width:900px){
-        
-    }
+    }     
 `
 
 export const Link = styled.a`
