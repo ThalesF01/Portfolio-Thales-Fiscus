@@ -7,9 +7,11 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;    
     
-    width:90%;
+    width:100%;
     @media (max-width:900px){       
         height:110vh;
+        justify-content: center;
+    align-items: center;   
     }
 `
 

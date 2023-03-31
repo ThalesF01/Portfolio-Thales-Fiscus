@@ -12,8 +12,8 @@ export const Container = styled.div`
     height:35vh;
     @media (max-width:900px){
         flex-direction: column;
-        min-width: 93%;         
-        height:56vh;    
+        min-width: 96%;         
+        height:59vh;    
     }
 `
 
