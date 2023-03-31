@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import 'animate.css';
 
 export const Container = styled.div`
     display: flex;
@@ -6,6 +7,8 @@ export const Container = styled.div`
     width: 50%;
     align-items: center;
     justify-content: center;
+    animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
     @media (max-width:900px){
         width: 80%;
         height: 100vh;
