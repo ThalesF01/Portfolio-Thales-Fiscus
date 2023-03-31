@@ -7,6 +7,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;    
     
+    width:90%;
     @media (max-width:900px){       
         height:110vh;
     }
@@ -24,8 +25,9 @@ export const ContainerH = styled.div`
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 3rem;    
     justify-content: center;
+    align-items: center;
     @media (max-width:900px){       
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 1.5rem;
+        grid-gap: 0.2rem;
     }
 `
