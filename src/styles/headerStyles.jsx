@@ -7,8 +7,13 @@ export const Navbar = styled.nav`
     display: flex;
     align-items: center;    
     justify-content: center;
+    transition: 0.6s;
+    transition-duration: 0.5s; 
+        transition-timing-function: ease-in-out;        ;
   @media (max-width: 900px) {
     flex-direction: column;
+    transition-duration: 0.5s; 
+        transition-timing-function: ease-in-out;
     height: auto;
   }
 `;
@@ -21,6 +26,8 @@ export const NavMenu = styled.ul`
   align-items: center;
   width: 80%;
   margin: 15px;  
+  transition-duration: 0.5s; 
+        transition-timing-function: ease-in-out;
   @media (max-width: 900px) {
     flex-direction: column;
     width: 100%;
@@ -52,6 +59,7 @@ export const NavMenuItem = styled.li`
 
 export const NavToggle = styled.div`
   display: none; 
+  padding:20px;
   @media (max-width: 900px) {
     display: block;
   }

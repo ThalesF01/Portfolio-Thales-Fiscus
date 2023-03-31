@@ -7,11 +7,18 @@ export const Container = styled.div`
     align-items: center;  
     transition-duration: 0.3s; 
     transition-timing-function: ease-in-out;    
+    padding:0.5rem;
+    & :hover{
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: all 0.5s;
+    } 
 `
 
 export const Image = styled.img`
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     border-radius: 15px;
     & :hover{
         -moz-transform: scale(1.1);
