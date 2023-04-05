@@ -25,7 +25,7 @@ export const Titulo = styled.h1`
 export const ContainerH = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 3rem;    
+    grid-gap: 2.3rem;    
     justify-content: center;
     align-items: center;    
     width: 95%;
