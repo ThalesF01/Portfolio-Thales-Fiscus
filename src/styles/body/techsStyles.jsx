@@ -27,7 +27,8 @@ export const ContainerH = styled.div`
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 3rem;    
     justify-content: center;
-    align-items: center;
+    align-items: center;    
+    width: 95%;
     @media (max-width:900px){       
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 0.2rem;

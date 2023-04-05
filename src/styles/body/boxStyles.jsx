@@ -17,8 +17,8 @@ export const Container = styled.div`
 `
 
 export const Image = styled.img`
-    height: 120px;
-    width: 120px;
+    height: 110px;
+    width: 110px;
     border-radius: 15px;
     & :hover{
         -moz-transform: scale(1.1);
