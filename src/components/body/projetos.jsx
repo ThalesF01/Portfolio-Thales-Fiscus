@@ -18,7 +18,7 @@ export default function projetos(){
             <Titulo>Projetos</Titulo>           
 
             <Projetos>
-            {enviaProjetos(Marvel,"Pagina de compras de HQs da Marvel","React.js e Styled Components","https://desafio-neo-app.vercel.app/","https://github.com/ThalesF01/Desafio-NeoApp")}
+                {enviaProjetos(Marvel,"Pagina de compras de HQs da Marvel","React.js e Styled Components","https://desafio-neo-app.vercel.app/","https://github.com/ThalesF01/Desafio-NeoApp")}
                 {enviaProjetos(Conversor,"Conversor de Moedas feito em React.JS","Reacj.JS, JavaScript, HTML5, CSS3 e BootStrap", "https://conversor-moedas-react.vercel.app/", "https://github.com/ThalesF01/Conversor-Moedas-React")}
                 {enviaProjetos(Blog, "Blog feito com Node e MongoDB.", "Node.JS, JavaScript, HTML5, CSS3, BootStrap e MongoDB","#","https://github.com/ThalesF01/Blog-Node" )}
                 {enviaProjetos(Pousada,"Pagina de reserva de hotel inspirado em exercicio da plataforma DevMedia.","HTML5, CSS3 e JavaScript","https://pousada-teste.vercel.app/","https://github.com/ThalesF01/Pousada-Secreta")}

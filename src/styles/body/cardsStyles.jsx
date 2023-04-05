@@ -3,13 +3,15 @@ import styled from 'styled-components'
 export const Container = styled.div`
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: spapce-evelyn;
     background-color: #2a2a31;
-    padding: 24px;
+    flex-direction: column;  
+    padding:10px;
     margin: 30px;
     border-radius: 15px;
-    min-width: 45%;
-    height:35vh;
+    min-width: 30%;
+    height:50vh;
+    
     @media (max-width:900px){
         flex-direction: column;
         min-width: 98%;         
@@ -17,27 +19,31 @@ export const Container = styled.div`
     }
 `
 
-export const Image = styled.img`
-    height: 180px;
-    width: 180px;           
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 14px;
-    transition-duration: 0.5s; 
-    transition-timing-function: ease-in-out; 
-    @media (max-width:900px){  
-        height: 180px;
-        width: 220px;              
-    }
-`
-
-export const Link = styled.a`
+export const Image = styled.div`
     & :hover{
         -moz-transform: scale(1.1);
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
         transition: all 0.5s;
+    } 
+    width:90%;
+    height:90%
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    & img{
+        height: 100%;
+        width: 100%;           
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 14px;
+        transition-duration: 0.5s; 
+        transition-timing-function: ease-in-out;
+        @media (max-width:900px){  
+        height: 180px;
+        width: 220px;              
     }
+    }        
 `
 
 export const Article = styled.div`

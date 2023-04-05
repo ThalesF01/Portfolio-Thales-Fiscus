@@ -4,7 +4,7 @@ import { Container, Image, Link, Article, Inf, Techs, BotoesC, Botoes } from "..
 export default function containerProjetos(props){
     return(
         <Container>
-            <Link href={props.vp} target="_blank"><Image src={props.img} alt="ImagemProjeto" /></Link>
+           <Image><img src={props.img} alt="ImagemProjeto" /></Image>
             <Article>
                 <Inf>{props.texto}</Inf>
                 <Techs>Tecnologias usadas: {props.techs}</Techs>

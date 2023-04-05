@@ -6,19 +6,7 @@ export const Container = styled.div`
     align-items: center;    
     justify-content: center;
     width: 100%;    
-    padding: 1.5rem;
-    & ::-webkit-scrollbar{
-    border-radius: 15px;    
-    height: 15px;
-    }   
-    & ::-webkit-scrollbar-thumb{
-    background-color:#16161d;
-    border-radius: 15px;
-    }
-    & ::-webkit-scrollbar-track{
-    background-color: #2a2a31;
-    border-radius: 15px;
-    }
+    padding: 1.5rem;    
 `
 
 export const Titulo = styled.h1`
@@ -28,11 +16,16 @@ export const Titulo = styled.h1`
 `
 
 export const Projetos = styled.div`
-    display: flex;
-    overflow:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;    
     justify-items: center;
     align-items: center;
     margin: 20px;    
     padding:20px;
     width:90%; 
+    @media (max-width:900px){
+        display:flex;
+        flex-direction: column;  
+    }
 `
