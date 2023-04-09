@@ -6,6 +6,7 @@ export const Container = styled.div`
     justify-content: space-evenly;
     height: 15vh;
     background-color: #16161d;  
+    
 `
 
 export const Image = styled.img`

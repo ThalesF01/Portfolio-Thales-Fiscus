@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Image, Titulo } from "../../styles/body/boxStyles";
+import { Container, Image, Titulo } from "../../styles/body/habilidadesStyles";
 
 export default function boxH(props){
     return( 

@@ -1,20 +1,21 @@
 import styled from 'styled-components'
+import 'animate.css';
 
 export const Navbar = styled.nav`
   width: 100%;
-    background-color: #16161d;
-    height: 15vh;
-    display: flex;
-    align-items: center;    
-    justify-content: center;
-    transition: 0.6s;
-    transition-duration: 0.5s; 
-        transition-timing-function: ease-in-out;        ;
+  background-color: #16161d;
+  height: 15vh;
+  display: flex;
+  align-items: center;    
+  justify-content: center;
+  transition: 0.6s;
+  transition-duration: 0.5s; 
+  transition-timing-function: ease-in-out;    
   @media (max-width: 900px) {
-    flex-direction: column;
-    transition-duration: 0.5s; 
-        transition-timing-function: ease-in-out;
-    height: auto;
+  flex-direction: column;
+  transition-duration: 0.5s; 
+  transition-timing-function: ease-in-out;
+  height: auto;
   }
 `;
 
@@ -27,25 +28,28 @@ export const NavMenu = styled.ul`
   width: 80%;
   margin: 15px;  
   transition-duration: 0.5s; 
-        transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;  
   @media (max-width: 900px) {
-    flex-direction: column;
-    width: 100%;
-    display: ${props => (props.isOpen ? 'flex' : 'none')};
-    justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  display: ${props => (props.isOpen ? 'flex' : 'none')};
+  justify-content: space-around;
   }
 `;
 
 export const NavMenuItem = styled.li`
-    margin: 30px;
+    margin: 30px;    
+    animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: ${props => props.time}; /* don't forget to set a duration! */    
+    
   & a{
-        letter-spacing: 2px;
-        text-decoration: none;
-        color: #fafafa;  
-        padding: 1.6rem;
-        transition-duration: 0.5s; 
-        transition-timing-function: ease-in-out;
-        font-size: 1.1rem;      
+      letter-spacing: 2px;
+      text-decoration: none;
+      color: #fafafa;  
+      padding: 1.6rem;
+      transition-duration: 0.5s; 
+      transition-timing-function: ease-in-out;
+      font-size: 1.1rem;      
     }
     & a:hover{
         letter-spacing: 3px;

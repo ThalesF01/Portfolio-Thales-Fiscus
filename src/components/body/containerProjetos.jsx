@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Image, Link, Article, Inf, Techs, BotoesC, Botoes } from "../../styles/body/cardsStyles";
+import { Container, Image, Article, Inf, Techs, BotoesC, Botoes } from "../../styles/body/containerProjetosStyles";
 
 export default function containerProjetos(props){
     return(

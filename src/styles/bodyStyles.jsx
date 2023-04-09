@@ -4,7 +4,8 @@ import 'animate.css';
 export const Container = styled.div`
     display: flex;
     width: 100%;
-    height: 85vh;       
+    height: 85vh;
+    
     @media (max-width:999px){
      flex-direction:column;
      align-items: center;
@@ -14,6 +15,6 @@ export const Container = styled.div`
 `
 
 export const Body = styled.div`
-    background-color: #1e1e23;
+    background: linear-gradient(0.25turn, #111112, #202027, #292933);
     width: 100%;
 `
