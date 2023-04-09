@@ -3,14 +3,14 @@ import styled from 'styled-components'
 export const Container = styled.div`
     display: flex;
     align-items: center;
-    justify-content: spapce-evelyn;
+    justify-content: space-evenly;
     background-color: #2a2a31;
     flex-direction: column;  
     padding:10px;
     margin: 30px;
     border-radius: 15px;
     min-width: 30%;
-    height:50vh;
+    height:55vh;
     
     @media (max-width:900px){
         flex-direction: column;
