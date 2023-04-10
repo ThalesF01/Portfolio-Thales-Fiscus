@@ -5,12 +5,14 @@ export const Container = styled.div`
     align-items: center;
     justify-content: space-evenly;
     background: linear-gradient(to left, #191818,#1b1b1d,#1e1e20,#202022);    
-    
+    border: 0.5px solid #676565;
     flex-direction: column;      
     margin: 30px;
     border-radius: 15px;
     min-width: 30%;
     height:55vh;
+    transition-duration: 0.5s; 
+    transition-timing-function: ease-in-out;  
     :hover{
         -moz-transform: scale(1.1);
         -webkit-transform: scale(1.1);
