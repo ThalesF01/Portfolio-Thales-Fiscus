@@ -3,7 +3,7 @@ import Perfil from './body/perfil'
 import Sobre from './body/sobre'
 import Projetos from './body/projetos'
 import Experiencias from './body/experiencias'
-import Habilidades from './body/habilidades'
+import Habilidades from './body/tecnologias'
 import { Container, Body } from "../styles/bodyStyles";
 
 export default function body(){

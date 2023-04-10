@@ -7,6 +7,7 @@ export const Container = styled.div`
     justify-content: center;
     width: 100%;    
     padding: 1.5rem;    
+    
 `
 
 export const Titulo = styled.h1`
@@ -22,8 +23,12 @@ export const Projetos = styled.div`
     justify-items: center;
     align-items: center;
     margin: 20px;    
-    padding:20px;
+    padding:40px;
     width:90%; 
+    border: 1px solid #908f8f;
+    border-radius: 15px;
+       
+    
     @media (max-width:900px){
         display:flex;
         flex-direction: column;  

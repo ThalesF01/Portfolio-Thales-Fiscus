@@ -4,14 +4,19 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #2a2a31;
-    flex-direction: column;  
-    padding:10px;
+    background: linear-gradient(to left, #191818,#1b1b1d,#1e1e20,#202022);    
+    
+    flex-direction: column;      
     margin: 30px;
     border-radius: 15px;
     min-width: 30%;
     height:55vh;
-    
+    :hover{
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
     @media (max-width:900px){
         flex-direction: column;
         min-width: 98%;         
@@ -19,21 +24,15 @@ export const Container = styled.div`
     }
 `
 
-export const Image = styled.div`
-    & :hover{
-        -moz-transform: scale(1.1);
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
-        transition: all 0.5s;
-    } 
+export const Image = styled.div`    
     width:90%;
-    height:90%
+    height:80%;
     display:flex;
     align-items:center;
-    justify-content:center;
+    justify-content:center;    
     & img{
-        height: 100%;
-        width: 100%;           
+        height: 80%;
+        width: 90%;           
         object-fit: cover;
         border-radius: 10px;
         margin-bottom: 14px;
@@ -42,7 +41,7 @@ export const Image = styled.div`
         @media (max-width:900px){  
         height: 180px;
         width: 220px;              
-    }
+        }
     }        
 `
 

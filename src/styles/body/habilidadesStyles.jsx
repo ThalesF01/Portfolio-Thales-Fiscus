@@ -8,24 +8,19 @@ export const Container = styled.div`
     transition-duration: 0.3s; 
     transition-timing-function: ease-in-out;    
     padding:0.5rem;
-    & :hover{
+    :hover{
         -moz-transform: scale(1.1);
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
         transition: all 0.5s;
-    } 
+    }
+    
 `
 
 export const Image = styled.img`
     height: 90px;
     width: 90px;
     border-radius: 15px;
-    & :hover{
-        -moz-transform: scale(1.1);
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
-        transition: all 0.5s;
-    }  
     @media (max-width:900px){
         height: 50px;
         width: 50px;

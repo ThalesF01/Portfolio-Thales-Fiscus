@@ -1,6 +1,6 @@
 import React from "react";
 import YDUQS from '../../assets/YDUQS.png'
-import { Container, Titulo, Yduqs, Image, Link, Lista, Item } from "../../styles/body/expStyles";
+import { Container, Titulo, Yduqs, Image, Link, Lista, Item } from "../../styles/body/experienciasStyles";
 
 export default function experiencias(){
     return(   
