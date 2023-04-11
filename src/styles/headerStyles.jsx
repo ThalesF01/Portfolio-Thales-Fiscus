@@ -1,70 +1,48 @@
-import styled from 'styled-components'
-import 'animate.css';
+import styled from 'styled-components';
 
-export const Navbar = styled.nav`
+export const Nav = styled.nav`
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  background-color: #16161d;
-  height: 15vh;
+  z-index: 1;
+`;
+
+export const NavContainer = styled.div`
   display: flex;
-  align-items: center;    
-  justify-content: center;
-  transition: 0.6s;
-  transition-duration: 0.5s; 
-  transition-timing-function: ease-in-out;    
-  @media (max-width: 900px) {
-  flex-direction: column;
-  transition-duration: 0.5s; 
-  transition-timing-function: ease-in-out;
-  height: auto;
-  }
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+`;
+
+export const NavLogo = styled.a`
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
 `;
 
 export const NavMenu = styled.ul`
-  display: flex;
   list-style: none;
-  padding: 0.5rem;
-  justify-content: space-around;
-  align-items: center;
-  width: 80%;
-  margin: 15px;  
-  transition-duration: 0.5s; 
-  transition-timing-function: ease-in-out;  
-  @media (max-width: 900px) {
-  flex-direction: column;
-  width: 100%;
-  display: ${props => (props.isOpen ? 'flex' : 'none')};
-  justify-content: space-around;
-  }
+  display: flex;
 `;
 
-export const NavMenuItem = styled.li`
-    margin: 30px;    
-    animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: ${props => props.time}; /* don't forget to set a duration! */    
-    
-  & a{
-      letter-spacing: 2px;
-      text-decoration: none;
-      color: #fafafa;  
-      padding: 1.6rem;
-      transition-duration: 0.5s; 
-      transition-timing-function: ease-in-out;
-      font-size: 1.1rem;      
-    }
-    & a:hover{
-        letter-spacing: 3px;
-        opacity: 0.7;
-        transform: scale(1.3);
-        background-color: #393941;
-        border-radius: 20px;    
-        padding:1.3rem ;
-    }
+export const NavItem = styled.li`
+  margin: 0 10px;
 `;
 
-export const NavToggle = styled.div`
-  display: none; 
-  padding:20px;
-  @media (max-width: 900px) {
-    display: block;
+export const NavLink = styled.a`
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+    transform: translateY(-2px);
   }
 `;

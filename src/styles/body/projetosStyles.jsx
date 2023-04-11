@@ -13,7 +13,7 @@ export const Container = styled.div`
 export const Titulo = styled.h1`
     display: flex;
     justify-content: center;    
-    font-size: 3rem;
+    font-size: 3rem;    
 `
 
 export const Projetos = styled.div`

@@ -17,9 +17,9 @@ export const Container = styled.div`
 
 export const Body = styled.div`   
     
-    background-image: linear-gradient(0.25turn, #1b1a1a,#1f1d1d,#272525,#2d2a2a);
+    background-image: linear-gradient(0.25turn, #141313,#242222,#373232,#443838);
     background-size: 400% 400%;
-    animation: gradientAnimation 7s ease infinite;
+    animation: gradientAnimation 6s ease infinite;
 
   @keyframes gradientAnimation {
     0% {

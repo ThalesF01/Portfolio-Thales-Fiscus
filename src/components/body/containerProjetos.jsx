@@ -1,18 +1,17 @@
 import React from "react";
-import { Container, Image, Article, Inf, Techs, BotoesC, Botoes } from "../../styles/body/containerProjetosStyles";
+import { Container, Image, Overlay,Texto, BotoesC, Botoes } from "../../styles/body/containerProjetosStyles";
 
 export default function containerProjetos(props){
     return(
         <Container>
-           <Image><img src={props.img} alt="ImagemProjeto" /></Image>
-            <Article>
-                <Inf>{props.texto}</Inf>
-                <Techs>Tecnologias usadas: {props.techs}</Techs>
+            <Image src={props.img} alt="ImagemProjeto"/>
+            <Overlay>
+                <Texto>{props.texto}</Texto>
                 <BotoesC>
-                    <Botoes href={props.vp} target="_blank" borderColor="#28a745"><p>Ver projeto</p></Botoes>
-                    <Botoes href={props.vc} target="_blank" borderColor="#007bff"><p>Ver Código</p></Botoes>
+                    <Botoes href={props.vp} target="_blank" borderColor="#28a745">Ver projeto</Botoes>
+                    <Botoes href={props.vc} target="_blank" borderColor="#007bff">Ver Código</Botoes>
                 </BotoesC>
-            </Article>
+            </Overlay>
         </Container>
     )
 }

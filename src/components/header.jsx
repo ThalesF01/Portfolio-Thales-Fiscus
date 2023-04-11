@@ -1,25 +1,27 @@
 import React, { useState } from "react";
-import { Navbar, NavMenu, NavMenuItem, NavToggle } from "../styles/headerStyles";
+import { Nav, NavContainer, NavLogo, NavMenu, NavItem, NavLink } from "../styles/headerStyles";
 
 const Header = () => {
-    const [isOpen, setIsOpen] = useState(false);
-  
-    const toggleNav = () => {
-      setIsOpen(!isOpen);
-    };
-  
-    return (
-      <Navbar>
-        <NavToggle onClick={toggleNav}>☰</NavToggle>
-        <NavMenu isOpen={isOpen}>
-          <NavMenuItem time="0.7s"><a href="#">Home</a></NavMenuItem>
-          <NavMenuItem time="1.1s"><a href="#projetos">Projetos</a></NavMenuItem>
-          <NavMenuItem time="1.4s"><a href="#exp">Experiências</a></NavMenuItem>
-          <NavMenuItem time="1.7s"><a href="#habilidades">Tecnologias</a></NavMenuItem>
-          <NavMenuItem time="2s"><a href="#contato">Contato</a></NavMenuItem>
+  return (
+    <Nav>
+      <NavContainer>        
+        <NavMenu>
+          <NavItem>
+            <NavLink href="#">Home</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="#projetos">Projetos</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="#exp">Experiencias</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="#habilidades">Tecnologias</NavLink>
+          </NavItem>
         </NavMenu>
-      </Navbar>
-    );
-  };
-  
-  export default Header;
+      </NavContainer>
+    </Nav>
+  );
+};
+
+export default Header;
