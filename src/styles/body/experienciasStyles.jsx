@@ -13,6 +13,8 @@ export const Titulo = styled.h1`
     justify-content: center;
     margin-bottom: 2rem;
     font-size: 3rem;
+    color: #3d0f82;
+    font-weight: bold;
 `
 
 export const Yduqs = styled.div`

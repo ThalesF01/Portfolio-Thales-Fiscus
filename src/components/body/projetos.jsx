@@ -15,7 +15,7 @@ function enviaProjetos(img,texto,techs,vp,vc){
 export default function projetos(){
     return(   
         <Container id="projetos">           
-            <Titulo>Projetos</Titulo>           
+            <Titulo>PROJETOS</Titulo>           
 
             <Projetos>
                 {enviaProjetos(Marvel,"Pagina de compras de HQs feita com a API da Marvel","React.js e Styled Components","https://desafio-neo-app.vercel.app/","https://github.com/ThalesF01/Desafio-NeoApp")}

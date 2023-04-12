@@ -21,7 +21,7 @@ import PostgreSql from '../../assets/Skills/postgresql.svg'
 export default function tecnologias(){
     return(   
         <Container id="habilidades">
-            <Titulo>Tecnologias</Titulo>
+            <Titulo>TECNOLOGIAS</Titulo>
             <ContainerH>
                 <Box img={HTML} tech='HTML'/>
                 <Box img={CSS} tech='CSS'/>

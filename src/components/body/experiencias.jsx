@@ -5,7 +5,7 @@ import { Container, Titulo, Yduqs, Image, Link, Lista, Item } from "../../styles
 export default function experiencias(){
     return(   
         <Container id="exp">
-            <Titulo>Experiências</Titulo>
+            <Titulo>EXPERIÊNCIAS</Titulo>
             <h2>Analista de Dados</h2>
             <h3>YDUQS - Fevereiro 2022 até Dezembro 2022</h3>
             <Yduqs>

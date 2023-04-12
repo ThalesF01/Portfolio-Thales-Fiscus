@@ -19,6 +19,8 @@ export const Titulo = styled.h1`
     justify-content: center;
     font-size: 3rem;
     margin-bottom: 15px;
+    color: #2a0c57;
+    font-weight: bold;
 `
 
 export const ContainerH = styled.div`

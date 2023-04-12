@@ -4,7 +4,7 @@ import { Container, Text, Titulo } from "../../styles/body/sobreStyles";
 export default function sobre(){
     return(   
         <Container id="sobre">
-            <Titulo>Sobre Mim</Titulo>
+            <Titulo>SOBRE MIM</Titulo>
             <Text>Formado em Análise e Desenvolvimento de Sistemas pela Unicarioca. Sou um desenvolvedor de sistemas 
                 apaixonado por tecnologia e sempre em busca de novos desafios e aprendizados. Tenho sólida experiência 
                 em desenvolvimento de software, incluindo linguagens como JavaScript, Java e C#, além de conhecimentos 
