@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Nav, NavContainer, NavLogo, NavMenu, NavItem, NavLink } from "../styles/headerStyles";
+import React from "react";
+import { Nav, NavContainer, NavMenu, NavItem, NavLink } from "../styles/headerStyles";
 
 const Header = () => {
   return (
@@ -7,16 +7,19 @@ const Header = () => {
       <NavContainer>        
         <NavMenu>
           <NavItem>
-            <NavLink href="#">Home</NavLink>
+            <NavLink href="#" time="3.8s">Home</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#projetos">Projetos</NavLink>
+            <NavLink href="#projetos" time="4.4s">Projetos</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#exp">Experiencias</NavLink>
+            <NavLink href="#exp" time="5s">Experiencias</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#habilidades">Tecnologias</NavLink>
+            <NavLink href="#habilidades" time="5.6s">Tecnologias</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="#contato" time="6.2s">Contato</NavLink>
           </NavItem>
         </NavMenu>
       </NavContainer>

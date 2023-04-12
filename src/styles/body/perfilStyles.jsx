@@ -3,7 +3,9 @@ import 'animate.css';
 
 export const Container = styled.div`
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;   
+    
+    
     width: 50%;
     align-items: center;
     justify-content: center;
@@ -12,7 +14,7 @@ export const Container = styled.div`
     @media (max-width:900px){
         width: 80%;
         height: 100vh;
-        justify-content: center;
+        justify-content: end;
     }
 `
 

@@ -7,10 +7,10 @@ export const Container = styled.div`
     border-radius: 15px;    
     transition-duration: 0.5s; 
     transition-timing-function: ease-in-out;
-    width: 100%;
+    width: 89%;   
     :hover{
         & img{
-            opacity: 0.18;
+            opacity: 0.10;
         }
         & a{
             opacity: 1;
@@ -21,22 +21,24 @@ export const Container = styled.div`
     }
     @media (max-width:900px){
         flex-direction: column;
-        min-width: 98%;
-        height:59vh;
+        min-width: 98%;        
     }
 `
 
-export const Overlay = styled.div`
-    width: 20%;
+export const Overlay = styled.div`    
+    width: 24%;
     height: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     opacity: 0;
-    position: absolute;
+    position: absolute; 
     padding: 24px;
     transition: 0.9s;
+    @media (max-width:900px){        
+        width: 62%;
+    }
 ` 
 
 export const Image = styled.img`
@@ -46,7 +48,7 @@ export const Image = styled.img`
     display: block;
     opacity: 1;
     transition: 0.5s;
-    border-radius: 4px;
+    border-radius: 3px;
 `
 
 export const BotoesC = styled.div`
@@ -83,11 +85,16 @@ export const Botoes = styled.a`
     }        
 `
 
-export const Texto = styled.p`
+export const Texto = styled.p`    
     font-family: sans-serif;
-
-    width: 124%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    width: 90%;
     color: #f0d8f0;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.5rem;   
+    @media (max-width:900px){        
+        width: 150%;
+    }
 `
