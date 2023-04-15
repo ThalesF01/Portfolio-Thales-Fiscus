@@ -4,13 +4,14 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;       
-    border-radius: 15px;    
+    border-radius: 3px;    
     transition-duration: 0.5s; 
     transition-timing-function: ease-in-out;
-    width: 89%;   
+    width: 89%;
+    background-color: black;
     :hover{
         & img{
-            opacity: 0.10;
+            opacity: 0.15;
         }
         & a{
             opacity: 1;
@@ -28,14 +29,19 @@ export const Container = styled.div`
 export const Overlay = styled.div`    
     width: 24%;
     height: 50%;
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     opacity: 0;
-    position: absolute; 
+    position: absolute;
     padding: 24px;
     transition: 0.9s;
+    font-weight: bold;
+    & p{
+        color: #fff;
+    }
     @media (max-width:900px){        
         width: 62%;
     }
@@ -94,6 +100,7 @@ export const Texto = styled.p`
     color: #f0d8f0;
     font-weight: bold;
     font-size: 1.5rem;   
+    color: black;
     @media (max-width:900px){        
         width: 150%;
     }

@@ -1,16 +1,18 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    height: 95vh;
+    
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     justify-content: center;
-    align-items: center;        
+    align-items: center;
     width:100%;
-    @media (max-width:900px){       
+    background-color: #121214;
+    padding: 2.5rem;  
+    @media (max-width:900px){
         height:110vh;
         justify-content: center;
-        align-items: center;   
+        align-items: center;
     }
 `
 
@@ -19,7 +21,7 @@ export const Titulo = styled.h1`
     justify-content: center;
     font-size: 3rem;
     margin-bottom: 15px;
-    color: #2a0c57;
+    color: #fff;
     font-weight: bold;
 `
 

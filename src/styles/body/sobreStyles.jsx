@@ -28,6 +28,5 @@ export const Text = styled.p`
 export const Titulo = styled.h1`    
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #3d0f82;
     font-weight: bold;
 `

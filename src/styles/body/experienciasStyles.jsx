@@ -4,8 +4,14 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;            
-    padding: 2.5rem;             
-    border-radius: 15px;
+    padding: 2.5rem;
+    background-color: #fff;
+    & h2{
+        color: #121214;
+    }
+    & h3{
+        color: #121214;
+    }
 `
 
 export const Titulo = styled.h1`    
@@ -13,8 +19,8 @@ export const Titulo = styled.h1`
     justify-content: center;
     margin-bottom: 2rem;
     font-size: 3rem;
-    color: #3d0f82;
     font-weight: bold;
+    color: #121214;
 `
 
 export const Yduqs = styled.div`
@@ -36,6 +42,7 @@ export const Image = styled.img`
 `
 
 export const Link = styled.a`
+
     & :hover{
         -moz-transform: scale(1.1);
         -webkit-transform: scale(1.1);
@@ -46,9 +53,14 @@ export const Link = styled.a`
 
 export const Lista = styled.ul`
     margin-left: 2.5rem;
+    color: #121214;
 `
 
 export const Item = styled.li`
     padding: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1.2rem;  
+    & p{
+        color: #121214;
+    }  
+    color: #121214;
 `

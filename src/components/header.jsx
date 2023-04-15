@@ -17,10 +17,7 @@ const Header = () => {
           </NavItem>
           <NavItem>
             <NavLink href="#habilidades" time="5.6s">Tecnologias</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="#contato" time="6.2s">Contato</NavLink>
-          </NavItem>
+          </NavItem>          
         </NavMenu>
       </NavContainer>
     </Nav>

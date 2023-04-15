@@ -6,15 +6,15 @@ export const Container = styled.div`
     align-items: center;    
     justify-content: center;
     width: 100%;    
-    padding: 1.5rem;    
-    
+    padding: 1.5rem;  
+    background-color: #722ADF;
 `
 
 export const Titulo = styled.h1`
     display: flex;
     justify-content: center;    
     font-size: 3rem;
-    color: #3d0f82;
+    color: #121214;
     font-weight: bold;
 `
 
