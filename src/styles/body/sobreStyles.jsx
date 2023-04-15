@@ -17,7 +17,7 @@ export const Container = styled.div`
 
 export const Text = styled.p`
     letter-spacing: 0.9px;
-    line-height: 1.7;
+    line-height: 1.5;
     font-size: 1rem;
     @media (max-width:900px){
         width: 100%;
