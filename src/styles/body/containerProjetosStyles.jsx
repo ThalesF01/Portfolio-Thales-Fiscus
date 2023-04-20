@@ -27,7 +27,7 @@ export const Container = styled.div`
 `
 
 export const Overlay = styled.div`    
-    width: 24%;
+    width: 40%;
     height: 50%;
     color: black;
     display: flex;
