@@ -5,7 +5,7 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;       
     border-radius: 3px;    
-    transition-duration: 0.5s; 
+    transition-duration: 1s; 
     transition-timing-function: ease-in-out;
     width: 89%;
     background-color: black;
@@ -37,7 +37,7 @@ export const Overlay = styled.div`
     opacity: 0;
     position: absolute;
     padding: 24px;
-    transition: 0.9s;
+    transition: 1.2s;
     font-weight: bold;
     & p{
         color: #fff;

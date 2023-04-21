@@ -7,16 +7,16 @@ const Header = () => {
       <NavContainer>        
         <NavMenu>
           <NavItem>
-            <NavLink href="#" time="3.8s">Home</NavLink>
+            <NavLink href="#" time="5s">Home</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#projetos" time="4.4s">Projetos</NavLink>
+            <NavLink href="#projetos" time="5.6s">Projetos</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#exp" time="5s">Experiencias</NavLink>
+            <NavLink href="#exp" time="6.2s">Experiencias</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#habilidades" time="5.6s">Tecnologias</NavLink>
+            <NavLink href="#habilidades" time="6.8s">Tecnologias</NavLink>
           </NavItem>          
         </NavMenu>
       </NavContainer>
