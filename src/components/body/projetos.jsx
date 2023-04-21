@@ -16,19 +16,6 @@ function enviaProjetos(img,texto,techs,vp,vc){
 export default function projetos(){
     return(   
         <Container id="projetos">           
-<<<<<<< HEAD
-            <Titulo>PROJETOS</Titulo>
-            <Projetos>
-                {enviaProjetos(Marvel,"Pagina de compras de HQs feita com a API da Marvel","React.js e Styled Components","https://desafio-neo-app.vercel.app/","https://github.com/ThalesF01/Desafio-NeoApp")}
-                {enviaProjetos(Conversor,"Conversor de Moedas feito em React.JS","Reacj.JS, CSS3 e BootStrap", "https://conversor-moedas-react.vercel.app/", "https://github.com/ThalesF01/Conversor-Moedas-React")}
-                {enviaProjetos(Blog, "Blog feito com Node e MongoDB.", "Node.JS, BootStrap, Handlebars e MongoDB","#","https://github.com/ThalesF01/Blog-Node" )}
-                {enviaProjetos(Pousada,"Pagina de reserva de hotel inspirado em exercicio da plataforma DevMedia.","HTML5, CSS3 e JavaScript","https://pousada-teste.vercel.app/","https://github.com/ThalesF01/Pousada-Secreta")}
-                {enviaProjetos(Music,"Pagina de musicas no estilo spotify","HTML5, CSS3 e JavaScript","https://music-library-gray.vercel.app/","https://github.com/ThalesF01/Music-Library")}
-                {enviaProjetos(Calculadora, "Calculadora", "HTML5, CSS3 e Javascript", "https://thalesf01.github.io/Calculadora/", "https://github.com/ThalesF01/Calculadora")}
-                {enviaProjetos(Nubank, "Pagina de login de usuário inspirado no Nubank", "HTML5 e CSS3", "https://pagina-login-nubank.vercel.app", "https://github.com/ThalesF01/Pagina-Login-Nubank")}                
-            </Projetos>                        
-        </Container>                            
-=======
             <Titulo>PROJETOS</Titulo>           
                 <Projetos>
                     {enviaProjetos(Marvel,"Pagina de compras de HQs feita com a API da Marvel","React.js e Styled Components","https://desafio-neo-app.vercel.app/","https://github.com/ThalesF01/Desafio-NeoApp")}
@@ -40,6 +27,5 @@ export default function projetos(){
                     {enviaProjetos(Nubank, "Pagina de login de usuário inspirado no Nubank", "HTML5 e CSS3", "https://pagina-login-nubank.vercel.app", "https://github.com/ThalesF01/Pagina-Login-Nubank")}                
                 </Projetos>                        
        </Container>                            
->>>>>>> 9cb8eafbf51636474302e9cbcff17f4d965d2fc8
     )
 }

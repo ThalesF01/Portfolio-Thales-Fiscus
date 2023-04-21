@@ -7,7 +7,7 @@ export const Container = styled.div`
     border-radius: 3px;    
     transition-duration: 1s; 
     transition-timing-function: ease-in-out;
-    width: 100%;
+    width: 89%;
     background-color: black;
     :hover{
         & img{
