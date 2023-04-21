@@ -5,7 +5,7 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;            
     padding: 2.5rem;
-    background-color: #fff;
+    background-color: #e2d5d5e1;
     & h2{
         color: #121214;
     }

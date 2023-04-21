@@ -8,7 +8,7 @@ export const Container = styled.div`
     transition-duration: 1s; 
     transition-timing-function: ease-in-out;
     width: 89%;
-    background-color: black;
+    color: black;
     :hover{
         & img{
             opacity: 0.15;
@@ -38,17 +38,18 @@ export const Overlay = styled.div`
     position: absolute;
     padding: 24px;
     transition: 1.2s;
-    font-weight: bold;
-    & p{
-        color: #fff;
-    }
+    font-weight: bold;    
     @media (max-width:900px){        
         width: 62%;
+    }
+    & p{
+        color: black;
     }
 ` 
 
 export const Image = styled.img`
-    width: 350px;
+    background-color: yellow;
+    width: 100%;
     height: 350px;
     object-fit: cover;
     display: block;
@@ -88,6 +89,7 @@ export const Botoes = styled.a`
         transition-duration: 0.5s; 
         transition-timing-function: ease-in-out;
         letter-spacing: 0.7px;
+        color: black;
     }        
 `
 

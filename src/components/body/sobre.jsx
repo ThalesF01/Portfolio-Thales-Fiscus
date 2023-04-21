@@ -5,7 +5,7 @@ export default function sobre(){
     return(   
         <Container id="sobre">
             <Titulo>SOBRE MIM</Titulo>
-            <Text>Formado em Análise e Desenvolvimento de Sistemas pela Unicarioca. Sou um desenvolvedor de sistemas 
+            <Text>Formado em Análise e Desenvolvimento de Sistemas. Sou um desenvolvedor de software
                 apaixonado por tecnologia e sempre em busca de novos desafios e aprendizados. Tenho sólida experiência 
                 em desenvolvimento de software, incluindo linguagens como JavaScript, Java e C#, além de conhecimentos 
                 em bancos de dados e frameworks populares como React.js, Node.js e Next.js. Minha habilidade em trabalhar em 
