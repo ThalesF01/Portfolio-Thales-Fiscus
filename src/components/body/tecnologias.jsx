@@ -17,6 +17,7 @@ import GraphQL from '../../assets/Skills/graphql.svg'
 import Git from '../../assets/Skills/git.svg'
 import Oracle from '../../assets/Skills/oracle.svg'
 import PostgreSql from '../../assets/Skills/postgresql.svg'
+import Angular from '../../assets/Skills/Angular_full_color_logo.svg.png'
 
 export default function tecnologias(){
     return(   
@@ -30,13 +31,13 @@ export default function tecnologias(){
                 <Box img={Nodejs} tech='NodeJS'/> 
                 <Box img={Typescript} tech='Typescript'/>
                 <Box img={Nextjs} tech='NextJS'/> 
+                <Box img={Angular} tech='Angular'/>
                 <Box img={Java} tech='Java'/> 
                 <Box img={Csharp} tech='C-Sharp'/>                 
                 <Box img={Bootstrap} tech='BootStrap'/>             
                 <Box img={Sass} tech='Sass'/>                 
                 <Box img={GraphQL} tech='GraphQL'/>              
-                <Box img={MySql} tech='MySql'/>
-                <Box img={PostgreSql} tech='Postgresql'/>                
+                <Box img={MySql} tech='MySql'/>              
                 <Box img={Oracle} tech='Oracle'/>                
                 <Box img={Git} tech='Git'/>
             </ContainerH>
