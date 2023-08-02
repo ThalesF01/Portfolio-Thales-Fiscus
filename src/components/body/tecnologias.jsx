@@ -11,13 +11,12 @@ import Nextjs from '../../assets/Skills/nextjs.svg'
 import Java from '../../assets/Skills/Java.svg'
 import Csharp from '../../assets/Skills/csharp.svg'
 import Sass from '../../assets/Skills/sass.svg'
-import Bootstrap from '../../assets/Skills/BootStrap.svg'
 import MySql from '../../assets/Skills/MySql.svg'
 import GraphQL from '../../assets/Skills/graphql.svg'
 import Git from '../../assets/Skills/git.svg'
 import Oracle from '../../assets/Skills/oracle.svg'
-import PostgreSql from '../../assets/Skills/postgresql.svg'
 import Angular from '../../assets/Skills/Angular_full_color_logo.svg.png'
+import Tailwind from '../../assets/Skills/TAILWIND.png'
 
 export default function tecnologias(){
     return(   
@@ -34,7 +33,7 @@ export default function tecnologias(){
                 <Box img={Angular} tech='Angular'/>
                 <Box img={Java} tech='Java'/> 
                 <Box img={Csharp} tech='C-Sharp'/>                 
-                <Box img={Bootstrap} tech='BootStrap'/>             
+                <Box img={Tailwind} tech='Tailwind'/>             
                 <Box img={Sass} tech='Sass'/>                 
                 <Box img={GraphQL} tech='GraphQL'/>              
                 <Box img={MySql} tech='MySql'/>              
